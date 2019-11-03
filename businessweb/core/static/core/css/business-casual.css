@@ -60,10 +60,49 @@ p {
 
 }
 
-.section-heading .section-heading-lower {
-  display: block;
-  font-size: 3rem;
-  font-weight: 100;
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 544px) {  
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 50;
+  }
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 50;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 2rem;
+    font-weight: 66 !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 90;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+  }
 }
 
 
